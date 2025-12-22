@@ -1,1 +1,2 @@
-print("sample demo files for weekly test.")
+print("hello world")
+print("thanks subhash")
