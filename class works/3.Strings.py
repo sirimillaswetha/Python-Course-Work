@@ -7,7 +7,7 @@ print(str1+str2)            #concatenation- joining 2 or more strings to gether
 print(str1*3)               #repatition- repeating the string multiple times
 print(str2[8])              #Indexing- accessing a particular character using its index
 print(str2[1:3])            #Slicing- accessing a range of characters using their index
-print("subhash" in str2)    # Membership- checking if a substring is present in a string
+print("swetha" in str2)    # Membership- checking if a substring is present in a string
 
 # methods()
 # case conversion methods
@@ -64,7 +64,7 @@ print(str2.lstrip())         #lstrip()- removes leading whitespace
 print(str2.rstrip())         #rstrip()- removes trailing whitespace
 print('sai'.encode())        #encode()- encodes the string into bytes using a specified encoding
 print(b'lakshmi'.decode())   #decode()- decodes bytes into a string using a specified encoding
-print(str2.rstrip('subhash'))   #rstrip()- removes the specified trailing characters
+print(str2.rstrip('swetha'))   #rstrip()- removes the specified trailing characters
 
 #string testing methods
 

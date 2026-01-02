@@ -1,2 +1,1 @@
-print("sample demo files for weekly test.
-")
+print("sample demo files for weekly test.")
