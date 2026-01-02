@@ -18,7 +18,7 @@ print(type(z))  # <class 'complex'>
 # 2. String Type
 # str------- Sequence of characters inside quotes.
 
-name = "Subhash"
+name = "Swetha"
 print(type(name))  # <class 'str'>
 
 # 3. Sequence Types
@@ -40,7 +40,7 @@ print(list(r))  # [0, 1, 2, 3, 4]
 
 #4. Mapping Types--- dict,Key–value pairs.
 
-student = {"name": "Subhash", "age": 22}
+student = {"name": "Swetha", "age": 22}
 print(type(student))  # <class 'dict'>
 
 # 5. Set Types---set,Unordered, unique values.

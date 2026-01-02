@@ -1,8 +1,8 @@
 
 # Strings in python
 
-str1="kokkirala"
-str2="lakshmi venkata sai subhash"
+str1="Sirimilla swetha"
+str2="Sirimilla shree laxmi"
 print(str1+str2)            #concatenation- joining 2 or more strings to gether
 print(str1*3)               #repatition- repeating the string multiple times
 print(str2[8])              #Indexing- accessing a particular character using its index
@@ -29,9 +29,9 @@ print('100'.zfill(30))      #zfill()-  fills the string with leading zeros to sp
 
 print(str1.find('0'))       #find() - returns -1 if there is no letter
 print(str1.rfind('a'))      #rfind()- used to find the last occurrence of a substring in a string. 
-print(str1.index('k'))      #index() - if there is no letter it print Error
-print(str1.rindex('k'))     #rindex()- Returns the position of the last occurrence of a substring,If not found → raises an error (ValueError)
-print(str1.count('k'))      #count()- counts the number of occurrences of a substring
+print(str1.index('S'))      #index() - if there is no letter it print Error
+print(str1.rindex('S'))     #rindex()- Returns the position of the last occurrence of a substring,If not found → raises an error (ValueError)
+print(str1.count('S'))      #count()- counts the number of occurrences of a substring
 
 # replace & modify methods
 
@@ -55,7 +55,7 @@ print(str2.rsplit(' ',2))       # rsplit()- splits the string into a list of sub
 print(str2.splitlines())        #splitlines()- splits the string into a list of lines
 print(str2.rpartition(' '))     #rpartition()- splits the string into a tuple of three parts from the right based on a separator
 print(str2.partition(' '))      #partition()- splits the string into a tuple of three parts based on a separator
-print(' '.join(['lakshmi','venkatasai','subhash'])) #join()- joins a list of strings into a single string with a specified separator
+print(' '.join(['swetha','shree laxmi','sai vinay'])) #join()- joins a list of strings into a single string with a specified separator
 
 # whitespace removal methods
 

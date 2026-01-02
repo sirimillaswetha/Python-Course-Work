@@ -9,7 +9,7 @@
 
 # keys()- Returns all the keys in the dictionary.
 
-d = {"name": "Subhash", "age": 22}
+d = {"name": "Swetha", "age": 22}
 print(d.keys())
 
 # values()- Returns all the values in the dictionary.
@@ -22,12 +22,12 @@ print(d.items())
 
 # get(key)- Returns the value of the key. If key doesn’t exist, returns None.
 
-print(d.get("name"))   # Subhash
+print(d.get("name"))   # Swetha
 print(d.get("salary")) # None
 
 # update()- Adds new items or updates existing keys.
 
-d.update({"city": "Guntur", "age": 23})
+d.update({"city": "Hyderabad", "age": 23})
 
 # pop(key)- Removes the key and returns its value.
 
@@ -44,7 +44,7 @@ print(d.popitem())  # ('b', 2)
 #If key exists → returns its value
 # #If key does NOT exist → adds key with value
 
-d = {"name": "Subhash"}
+d = {"name": "Swetha"}
 d.setdefault("age", 22)
 print(d)
 
